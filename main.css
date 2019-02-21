@@ -1,0 +1,270 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(236, 238, 241);
+    margin: 0;
+}
+
+a {
+    color: rgb(0, 119, 197);
+}
+
+#container {
+    margin: auto;
+    padding: 30px;
+    width: 318px;
+    background-color: white;
+    border: 1px rgb(181, 181, 181) solid;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#container header {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#container header h1 {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: rgb(104, 104, 104);
+}
+
+#container header p {
+    font-size: 0.9em;
+    color: rgb(104, 104, 104);
+}
+
+#container header a {
+    font-size: 0.85em;
+    text-decoration: none;
+}
+
+#container a:hover {
+    text-decoration: underline;
+}
+
+input {
+    margin-top: 10px;
+    width: 93.1%;
+    height: 30px;
+    border: 1px rgb(187, 187, 187) solid;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em;
+}
+
+label {
+    font-size: 0.9em;
+    color: rgb(77, 77, 77);
+}
+
+form div {
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+
+form p {
+    font-size: 0.65em;
+    margin-top: 7px;
+    color: rgb(68, 68, 68);
+}
+
+form button {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: rgb(0, 119, 197);
+    color: white;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgb(68, 68, 68);
+}
+
+form button:hover {
+    background-color: rgb(22, 124, 204);
+}
+
+#container footer {
+    width: 88%;
+    min-width: 280px;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.8;
+    margin: auto;
+    margin-top: 44px;
+}
+
+#container footer a {
+    text-decoration: none;
+    color: rgb(0, 119, 197);
+}
+
+#container footer p {
+    margin-bottom: 0;
+    color: rgb(175, 175, 175);
+}
+
+header {
+    width: 380px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#main-logo {
+    margin: auto;
+    display: block;
+    height: 35px;
+    width: 118px;
+}
+
+#container header div {
+    display: inline-block;
+}
+
+#turbotax {
+    display: inline-block;
+    height: 24px;
+    width: 101px;
+    background-position: 0 27px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#quickbooks {
+    display: inline-block;
+    height: 24px;
+    width: 127px;
+    background-position: -114px 27px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#mint {
+    display: inline-block;
+    height: 24px;
+    width: 66px;
+    background-position: -253px 27px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    margin: 20px 0;
+}
+
+#sign-in-container {
+    width: 100%;
+    min-width: 380px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#sign-in {
+    font-size: 0.78em;
+    float: right;
+    text-align: right;
+    line-height: 1.4;
+    margin-right: 25px;
+}
+
+#sign-in a {
+    text-decoration: none;
+}
+
+#sign-in p {
+    display: inline-block;
+}
+
+#sign-in button {
+    border-radius: 5px;
+    color: white;
+    height: 34px;
+    width: 100px;
+    position: relative;
+    bottom: 9px;
+    margin-left: 5px;
+    background-color: rgb(0, 119, 197);
+    border: 1px rgb(68, 68, 68) solid;
+    font-size: 1.1em;
+}
+
+.btn-icon {
+    position: relative;
+    top: 2px;
+    margin-right: 6px;
+    display: inline-block;
+    height: 15px;
+    width: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#container .btn-icon {
+    width: 20px;
+    margin: 0;
+    margin-right: 3px;
+}
+
+#pass-lock {
+    position: relative;
+    bottom: 29px;
+    left: 284px;
+    height: 22px;
+    width: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+footer {
+    max-width: 705px;
+    width: 80%;
+    min-width: 380px;
+    margin: auto;
+    text-align: center;
+}
+
+footer img {
+    width: 85px;
+    margin-bottom: 10px;
+}
+
+footer ul {
+    font-size: 0.75em;
+    list-style-type: none;
+    height: 17px;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    width: 149px;
+}
+
+footer li {
+    float: left;
+    margin: 0 6px;
+}
+
+footer a {
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 0.75em;
+    margin-top: 1px;
+    color: rgb(107, 107, 107);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
